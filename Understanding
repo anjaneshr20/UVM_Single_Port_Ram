@@ -1,0 +1,22 @@
+Understanding of basics about Single Port Ram
+
+The size of the RAM is determined by the number of addressable locations and the width of each data word. In this case, the parameters provided are:
+
+ADDR_WIDTH = 16 bits
+
+DATA_WIDTH = 8 bits
+
+The ADDR_WIDTH specifies that the address bus is 16 bits wide, which means we can address 
+2^16 locations.
+
+2^16=65,536 locations.
+
+The DATA_WIDTH specifies that each location stores 8 bits (1 byte) of data.
+
+Now, to find the total size of the RAM in kilobytes (KB):
+
+Size=Number of locations×Data width=65,536×1 byte=65,536 bytes
+Since 1 kilobyte (KB) = 1024 bytes, we convert the size in bytes to kilobytes:
+
+65,536 bytes=65,536÷1024 KB=64 KB
+So, the RAM is 64 KB in size.
