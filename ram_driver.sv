@@ -7,6 +7,7 @@ class ram_driver extends uvm_driver #(ram_sequence_item);
   //----------------------------------------------------------------------------
   function new(string name="",uvm_component parent);
     super.new(name,parent);
+    //cfreating the drive to scoreboard port
     drv2sb=new("drv2sb",this);
   endfunction
   //---------------------------------------------------------------------------- 
